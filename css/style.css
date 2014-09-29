@@ -25,6 +25,7 @@ time, mark, audio, video {
 
 body {
 	line-height: 1;
+	background-color: #16b1b5;
 }
 ol, ul {
 	list-style: none;
@@ -69,7 +70,7 @@ p, span
 .logo h1
 {
 	font-size: 30px;
-	color: black;
+	color: #16b1b5;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	padding: 25.5px;
@@ -77,6 +78,9 @@ p, span
 .menu
 {
 	float: right;
+}
+.menu-gal{
+	float:right;
 }
 .show-menu {
 	font-family: 'Open Sans', sans-serif;
