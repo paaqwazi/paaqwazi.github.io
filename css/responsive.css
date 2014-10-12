@@ -10,11 +10,35 @@
 .section-head {
     padding: 80px 0px 60px 25.5px;
 }
+.services-list {
+    padding-bottom: 80px;
+    float: left;
+}
+.services-list li {
+    float: left;
+    width: 313px;
+    text-align: center;
+    margin: 0px 25px;
+}
+.desc {
+    padding: 80px 0px;
+}
 .work-gallery ul li {
     margin-bottom: 15px;
     width: 235px;
 }
 .work-gallery ul li a img {
+    width: 235px;
+    height: 100%;
+}
+.team {
+    float: left;
+    margin-bottom: 80px;
+}
+.team li {
+    width: 235px;
+}
+.team li img {
     width: 235px;
     height: 100%;
 }
@@ -59,7 +83,33 @@ p.under-tagline {
 .section-head {
     padding: 60px 0px 60px 25.5px;
 }
-
+.services-list {
+    padding-bottom: 60px;
+    float: left;
+}
+.services-list li {
+    float: left;
+    width: 229px;
+    text-align: center;
+    margin: 0px 10px;
+}
+.services-list h4 {
+    font-size: 15px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #3D4351;
+}
+.desc {
+    padding: 60px 0px;
+}
+.desc h3 {
+    font-size: 23px;
+}
+.desc p {
+    color: #737373;
+    width: 90%;
+    font-size: 16px;
+}
 .work-gallery {
     padding-bottom: 60px;
     float: left;
@@ -69,6 +119,18 @@ p.under-tagline {
     margin-left: 60px;
     margin-bottom: 20px;
     width: 275px;
+}
+.team {
+    float: left;
+    margin-bottom: 60px;
+}
+.team li {
+    background-color: #FFF;
+    width: 275px;
+    margin-left: 60px;
+    float: left;
+    box-shadow: 0px 1px 1px -1px #888;
+    margin-bottom: 40px;
 }
 .contact-section {
     float: left;
@@ -112,17 +174,55 @@ p.under-tagline {
 }
 .section-head {
     padding: 60px 0px 60px 25.5px;
-
 }
-.pee-gallery {
+.services-list {
     padding-bottom: 60px;
     float: left;
 }
-.pee-gallery ul li {
+.services-list li {
+    float: left;
+    width: 229px;
+    text-align: center;
+    margin: 0px 10px;
+}
+.services-list h4 {
+    font-size: 15px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #3D4351;
+}
+.desc {
+    padding: 60px 0px;
+}
+.desc h3 {
+    font-size: 23px;
+}
+.desc p {
+    color: #737373;
+    width: 90%;
+    font-size: 16px;
+}
+.work-gallery {
+    padding-bottom: 60px;
+    float: left;
+}
+.work-gallery ul li {
     float: left;
     margin-left: 60px;
     margin-bottom: 20px;
     width: 275px;
+}
+.team {
+    float: left;
+    margin-bottom: 60px;
+}
+.team li {
+    background-color: #FFF;
+    width: 275px;
+    margin-left: 60px;
+    float: left;
+    box-shadow: 0px 1px 1px -1px #888;
+    margin-bottom: 40px;
 }
 .contact-section {
     float: left;
@@ -145,7 +245,7 @@ p.under-tagline {
     width: 620px;
 }
 .banner {
-    background: url('../images/DSC09164.JPG') no-repeat fixed 0% 0% / 100% 100% #3D454A;
+    background: url('../images/bg.png') no-repeat fixed 0% 0% / 100% 100% #3D454A;
     padding: 120px 0px 60px;
     cursor: default;
 }
@@ -170,15 +270,65 @@ p.under-tagline {
 .section-head {
     padding: 60px 0px 60px 25.5px;
 }
-.pee-gallery {
+.services-list {
+    padding-bottom: 60px;
+    float: none;
+}
+.services-list li:first-child {
+    margin-left: auto;
+}
+.services-list li {
+    width: 350px;
+    text-align: center;
+    margin: 20px auto;
+    float: none;
+}
+.services-list li:last-child {
+    margin-right: auto;
+}
+.desc {
+    background: url('../images/p.jpg') no-repeat fixed 0% 0% / 100% 100% #3D454A;
+    padding: 40px 0px;
+    cursor: default;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.desc h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+.desc p {
+    color: #737373;
+    width: 90%;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 25px auto 0px;
+    text-shadow: 1px 1px 1px #000;
+}
+.work-gallery {
     padding-bottom: 60px;
     float: left;
 }
-.pee-gallery ul li {
+.work-gallery ul li {
     float: left;
     margin-left: 24px;
     margin-bottom: 24px;
     width: 275px;
+}
+.team {
+    float: left;
+    margin-bottom: 60px;
+}
+.team li {
+    background-color: #FFF;
+    width: 275px;
+    margin-left: 24px;
+    float: left;
+    box-shadow: 0px 1px 1px -1px #888;
+    margin-bottom: 24px;
 }
 .contact-section {
     float: left;
@@ -240,7 +390,7 @@ ul#menu {
 		display:block;
 	}
 	.banner {
-    background: url('../images/DSC09164.JPG') no-repeat fixed #3D454A;
+    background: url('../images/bg.png') no-repeat fixed #3D454A;
     padding: 180px 0px 40px;
     cursor: default;
 }
@@ -271,11 +421,58 @@ p.under-tagline {
     font-weight: 300;
     text-align: center;
 }
-.pee-gallery ul li {
+.services-list {
+    padding-bottom: 40px;
+    float: left;
+}
+.services-list li:first-child {
+    margin-left: auto;
+}
+.services-list li {
+    width: 350px;
+    margin: 20px 37.5px;
+    text-align: center;
+    float: left;
+}
+.desc {
+    background: url('../images/p.jpg') no-repeat fixed #3D454A;
+    padding: 40px 0px;
+    cursor: default;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.desc h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+}
+.desc p {
+    color: #737373;
+    width: 90%;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 25px auto 0px;
+    text-shadow: 1px 1px 1px #000;
+}
+.work-gallery ul li {
     margin-bottom: 20px;
     width: 441px;
     margin-left: 0px;
     text-align: center;
+    float: left;
+}
+.team li {
+    background-color: #FFF;
+    width: 275px;
+    margin-left: 80px;
+    float: left;
+    box-shadow: 0px 1px 1px -1px #888;
+    margin-bottom: 25px;
+}
+.team {
+    margin-bottom: 40px;
     float: left;
 }
 .contact-section {
@@ -341,7 +538,7 @@ ul#menu {
 		display:block;
 	}
 	.banner {
-    background: url('../images/DSC09164.JPG') no-repeat fixed #3D454A;
+    background: url('../images/bg.png') no-repeat fixed #3D454A;
     padding: 180px 0px 40px;
     cursor: default;
 }
@@ -366,11 +563,57 @@ p.under-tagline {
 .section-head {
     padding: 40px 0px 40px 0px;
 }
-.pee-gallery ul li {
+.services-list {
+    padding-bottom: 40px;
+    float: left;
+}
+.services-list li:first-child {
+    margin-left: auto;
+}
+.section-head h3 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+.services-list li {
+    width: 280px;
+    margin: 20px 0px;
+    text-align: center;
+    float: left;
+}
+.desc {
+    background: url('../images/p.jpg') no-repeat fixed #3D454A;
+    padding: 40px 0px;
+    cursor: default;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.desc h3 {
+    font-size: 19px;
+}
+.desc p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 25px auto 0px;
+}
+.work-gallery ul li {
     margin-bottom: 20px;
     width: 280px;
     margin-left: 0px;
     text-align: center;
+    float: left;
+}
+.team li {
+    width: 275px;
+    margin-left: 2px;
+    float: left;
+	margin-bottom: 25px;
+}
+.team {
+    margin-bottom: 40px;
     float: left;
 }
 .contact-section {
