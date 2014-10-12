@@ -37,12 +37,13 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-image:url(../images/stars.jpeg);
+	color: brown;
 }
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
-	quotes: none;
+	quotes: double;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -169,6 +170,9 @@ p.under-tagline
 	font-weight: 300;
 	margin-top: 25px;
 }
+.meleft{
+	float: left;
+}
 button.mainbutton
 {
 	background: none repeat scroll 0% 0% transparent;
@@ -189,6 +193,7 @@ button.mainbutton:hover
 	background: #fff;
 	color: #888;
 }
+
 .services
 {
 	width: 100%;
