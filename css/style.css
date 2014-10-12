@@ -134,7 +134,7 @@ ul.nav li a.active
 }
 .banner
 {
-	background:url(../images/IMG_9418.JPG) no-repeat fixed;
+	background:url(../images/PA120093.JPG) no-repeat fixed;
 	-o-background-size: cover; 
 	-moz-background-size: cover; 
 	-webkit-background-size:cover; 
@@ -164,6 +164,7 @@ p.under-tagline
 {
 	color: #FFF;
 	font-size: 18px;
+	border-top-right-radius: 30px;
 	line-height: 30px;
 	font-weight: 300;
 	margin-top: 25px;
