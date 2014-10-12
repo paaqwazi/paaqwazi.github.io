@@ -163,7 +163,9 @@ ul.nav li a.active
 }
 p.under-tagline
 {
-	color: #FFF;
+	background-color: grey;
+	margin: -20px -5px;
+	padding: 10px 5px;
 	font-size: 18px;
 	border-top-right-radius: 30px;
 	line-height: 30px;
