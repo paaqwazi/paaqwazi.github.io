@@ -1,41 +1,68 @@
-$top: #000;
-$bottom: #fff;
-$bg: linear-gradient(to bottom, #fff, rgba(40, 40, 40, 1) 50%);
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Sacramento&family=Poiret+One&display=swap");
 
 * {
   margin: 0 auto;
+  box-sizing: border-box;
   -webkit-user-select: none;
-}
-
-body {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
-
-.centered {
-  margin: auto;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  right: 0;
+  font-size: 16px;
 }
 
 .container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-image: $bg;
-  display: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#notice {
+  flex: 1 1 40%;
+  background-color: $notice-bg;
+  height: 100vh;
+  position: relative;
+  .contentNotice {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    width: 70%;
+    text-align: center;
+    background-image: $content-bg;
+    h1 {
+      color: $h1-header;
+      font-family: "Chelsea Market", cursive;
+      font-size: 4em;
+      margin: 0px 0px 20px 0px;
+      text-transform: lowercase;
+    }
+    p {
+      color: $p-color;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      font-family: "Poiret One", cursive;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    &:link {
+      color: red;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 #hourglass {
-  @extend .centered;
-  width: 250px;
-  height: 250px;
-  /* Scaled it cause it looks cuter */
-  transform: scale(0.75);
+  flex: 3 1 60%;
+  .contentHour {
+    position: relative;
+    top: 40%;
+    left: 0;
+    right: 0;
+    width: 25%;
+  }
 }
 
 #bottom {
@@ -96,12 +123,5 @@ body {
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-#soon {
-  display: absolute;
-  text-align: center;
-  p {
-    font-size: 3em;
   }
 }
